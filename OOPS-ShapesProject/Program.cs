@@ -4,6 +4,13 @@ namespace OOPS_ShapesProject {
     class Program {
         static void Main(string[] args) {
 
+
+            var sqrcomp = new SquareComp(5);
+            var p = sqrcomp.GetPerimeter();
+            var a = sqrcomp.GetArea();
+            Console.WriteLine($"The SqrComp perimeter is {p} and area is {a}");
+
+
             var quad1 = new Quad( 5, 7, 13, 6);
             //quad1.side1 = 5;
             //quad1.side2 = 7;
