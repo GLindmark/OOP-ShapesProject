@@ -19,6 +19,11 @@ namespace OOPS_ShapesProject {
             perimeter = rect1.GetPerimeter();
             Console.WriteLine($"The rect perimeter is {perimeter}");
 
+            var square1 = new Square(5);
+
+            perimeter = square1.GetPerimeter();
+            Console.WriteLine($"The square perimeter is {perimeter}");
+
 
         }
     }
