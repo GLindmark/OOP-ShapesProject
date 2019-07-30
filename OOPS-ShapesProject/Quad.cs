@@ -17,6 +17,11 @@ namespace OOPS_ShapesProject {
         
         }
 
+        public virtual int GetArea() {
+
+            throw new NotImplementedException("Cannot calculate Area of a Quad");
+        }
+
         public Quad(int side_a, int side_b, int side_c, int side_d) {//constructors do NOT have a TYPE, most often public
             this.side1 = side_a;
             this.side2 = side_b;

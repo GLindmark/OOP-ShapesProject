@@ -9,6 +9,10 @@ namespace OOPS_ShapesProject {
         public Rect(int side_x, int side_y) : base(side_x, side_y,side_x, side_y) {
 
         }
+        public override int GetArea() {
+
+            return side1 * side2;
+        }
 
     }
 }
